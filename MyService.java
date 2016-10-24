@@ -28,7 +28,7 @@ class Handler implements HttpHandler {
     
     @Override
     public void handle(HttpExchange t) throws IOException {
-        String name  = t.getRequestURI().getQuery().toUpperCase();
+        String name  = t.getRequestURI().getQuery().toLowerCase();
         String response = String.format(template, name, System.currentTimeMillis());
         System.out.println(response);
         t.getResponseHeaders().add("Content-Type", contentType);
