@@ -1,8 +1,8 @@
 {
   "uuid": "puneetkhanduri-example",
   "gitUri": "https://github.com/puneetkhanduri/example.git",
-  "buildCommand": "javac MyService.java",
-  "artifactLocation": "MyService.class",
-  "runCommandTemplate": "java artifactLocation http",
+  "buildCommands": ["javac MyService.java", "jar cfm MyService.jar Manifest.txt *.class"],
+  "artifactLocation": "MyService.jar",
+  "runCommandTemplate": "java -jar artifactLocation http",
   "portNames": ["http"]
 }
