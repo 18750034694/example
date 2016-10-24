@@ -1,0 +1,8 @@
+project: {
+  uuid: example,
+  gitUri: https://github.com/puneetkhanduri/example.git,
+  buildCommand: javac MyService.java,
+  artifactLocation: ./MyService,
+  runCommandTemplate: java artifactLocation http,
+  portNames: [http]
+}
