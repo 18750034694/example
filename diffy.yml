@@ -1,5 +1,5 @@
 {
-  "uuid": "example",
+  "uuid": "puneetkhanduri-example",
   "gitUri": "https://github.com/puneetkhanduri/example.git",
   "buildCommand": "javac MyService.java",
   "artifactLocation": "./MyService",
