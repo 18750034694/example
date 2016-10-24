@@ -2,7 +2,7 @@
   "uuid": "puneetkhanduri-example",
   "gitUri": "https://github.com/puneetkhanduri/example.git",
   "buildCommand": "javac MyService.java",
-  "artifactLocation": "./MyService",
+  "artifactLocation": "MyService.class",
   "runCommandTemplate": "java artifactLocation http",
   "portNames": ["http"]
 }
