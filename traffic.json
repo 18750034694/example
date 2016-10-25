@@ -1,5 +1,5 @@
 {
-  "request": [
+  "requests": [
     ["curl", "-i", "-H", "Canonical-Resource : json", "localhost:$diffyPort/json?Google"],
     ["curl", "-i", "-H", "Canonical-Resource : json", "localhost:$diffyPort/json?Twitter"],
     ["curl", "-i", "-H", "Canonical-Resource : json", "localhost:$diffyPort/json?Facebook"],
