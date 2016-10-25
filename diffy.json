@@ -4,5 +4,6 @@
   "buildCommands": ["javac MyService.java", "jar cfm MyService.jar Manifest.txt MyService.class Handler.class"],
   "artifactLocation": "MyService.jar",
   "runCommandTemplate": "java -jar artifactLocation http",
-  "portNames": ["http"]
+  "portNames": ["http"],
+  "trafficSourceFile": "https://github.com/puneetkhanduri/example/traffic.json"
 }
