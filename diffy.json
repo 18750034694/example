@@ -5,5 +5,5 @@
   "artifactLocation": "MyService.jar",
   "runCommandTemplate": "java -jar artifactLocation http",
   "portNames": ["http"],
-  "trafficSourceFile": "https://github.com/puneetkhanduri/example/traffic.json"
+  "trafficSourceFile": "traffic.json"
 }
